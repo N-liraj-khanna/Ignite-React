@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Welcome to Ignite 👋
+
+This is the perfect website for pro gamers 🔥. A Website to fetch popular games, New games (recently released) and Upcoming games (in the future) with in-depth details of it and where to buy/download it. Also has the feature of searching your desired games with perfect UI/UX experience using React JS. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -39,6 +41,22 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+## Screenshots
+
+![1.png](ScreenShots/1.png)
+
+![2.png](ScreenShots/2.png)
+
+![3.png](ScreenShots/3.png)
+
+![4.png](ScreenShots/4.png)
+
+![5.png](ScreenShots/5.png)
+
+![6.png](ScreenShots/6.png)
+
+![7.png](ScreenShots/7.png)
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -68,3 +86,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Author
+
+
+👤 **N Liraj Khanna**
+
+* Website: https://github.com/N-liraj-khanna
+* Github: [@N-liraj-khanna](https://github.com/N-liraj-khanna)
+* LinkedIn: [@https://www.linkedin.com/in/n-lirajkhanna/](https://www.linkedin.com/in/n-lirajkhanna/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/N-liraj-khanna/Live-Crypto-CLI/issues). You can also take a look at the [contributing guide](https://github.com/N-liraj-khanna/Live-Crypto-CLI/blob/master/CONTRIBUTING.md).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2021 [N Liraj Khanna](https://github.com/N-liraj-khanna).<br />
+This project is [ISC](https://github.com/N-liraj-khanna/Live-Crypto-CLI/blob/master/LICENSE) licensed.
+
