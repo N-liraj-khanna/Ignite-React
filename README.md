@@ -43,19 +43,19 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Screenshots
 
-![1.png](ScreenShots/1.png)
+![1.png](Screenshots/1.png)
 
-![2.png](ScreenShots/2.png)
+![2.png](Screenshots/2.png)
 
-![3.png](ScreenShots/3.png)
+![3.png](Screenshots/3.png)
 
-![4.png](ScreenShots/4.png)
+![4.png](Screenshots/4.png)
 
-![5.png](ScreenShots/5.png)
+![5.png](Screenshots/5.png)
 
-![6.png](ScreenShots/6.png)
+![6.png](Screenshots/6.png)
 
-![7.png](ScreenShots/7.png)
+![7.png](Screenshots/7.png)
 
 ## Learn More
 
