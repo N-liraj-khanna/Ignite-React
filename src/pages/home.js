@@ -1,32 +1,39 @@
 import React, { useEffect } from "react";
+import GameDetail from "../components/GameDetail";
+//Redux
 import { useDispatch, useSelector } from "react-redux";
 import { loadGames } from "../actions/gamesAction";
-
-// Components
+//Components
 import Game from "../components/Game";
-
+//Styling and Animation
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import { useLocation } from "react-router-dom";
 
 const Home = () => {
+  //get the current location
+  const location = useLocation();
+  const pathId = location.pathname.split("/")[2];
+
+  //FETCH GAMES
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(loadGames());
   }, [dispatch]);
-
-  const { upcoming, popular, newGames } = useSelector((state) => state.games);
-
+  //Get that data back
+  const { popular, newGames, upcoming } = useSelector((state) => state.games);
   return (
     <GameList>
+      {pathId && <GameDetail />}
       <h2>Upcoming Games</h2>
       <Games>
         {upcoming.map((game) => (
           <Game
             name={game.name}
             released={game.released}
-            key={game.id}
             id={game.id}
             image={game.background_image}
+            key={game.id}
           />
         ))}
       </Games>
@@ -36,9 +43,9 @@ const Home = () => {
           <Game
             name={game.name}
             released={game.released}
-            key={game.id}
             id={game.id}
             image={game.background_image}
+            key={game.id}
           />
         ))}
       </Games>
@@ -48,9 +55,9 @@ const Home = () => {
           <Game
             name={game.name}
             released={game.released}
-            key={game.id}
             id={game.id}
             image={game.background_image}
+            key={game.id}
           />
         ))}
       </Games>
@@ -59,9 +66,9 @@ const Home = () => {
 };
 
 const GameList = styled(motion.div)`
-  padding: 0 5rem;
-  h2{
-    padding: 5rem 0;
+  padding: 0rem 5rem;
+  h2 {
+    padding: 5rem 0rem;
   }
 `;
 
